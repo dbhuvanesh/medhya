@@ -143,6 +143,28 @@ body {
 .m-6 {
   margin: 2rem;
 }
+ 
+.mt-0{
+  margin-top: 0;
+}
+.mt-1{
+  margin: 0.25rem;
+}
+.mt-2{
+  margin-top: 0.75rem;
+}
+.mt-3{
+  margin-top: 1.25rem;
+}
+.mt-4{
+  margin-top: 1.5rem;
+}
+.mt-5{
+  margin-top: 1.75rem;
+}
+.mt-6{
+  margin-top: 2rem;
+} 
 .mr-0 {
   margin-right: 0;
 }
@@ -207,3 +229,11 @@ body {
   margin-left: 2rem;
 }
 /* margin ends */
+.auto-grid-rows {
+  display: grid;
+  grid-auto-rows: auto;
+}
+.auto-grid-columns{
+  display: grid;
+  grid-auto-columns: auto;
+}
