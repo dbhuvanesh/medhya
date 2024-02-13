@@ -229,11 +229,4 @@ body {
   margin-left: 2rem;
 }
 /* margin ends */
-.auto-grid-rows {
-  display: grid;
-  grid-auto-rows: auto;
-}
-.auto-grid-columns{
-  display: grid;
-  grid-auto-columns: auto;
-}
+
