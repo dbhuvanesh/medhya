@@ -322,11 +322,9 @@ body {
   display: block;
 }
 
-.navbar {
+.avbar {
   display: block;
-
 }
-
 .ul {
   display: grid;
   padding: 0rem;
