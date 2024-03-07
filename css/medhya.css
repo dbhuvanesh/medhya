@@ -322,6 +322,21 @@ body {
   display: block;
 }
 
+.navbar {
+  display: block;
+
+}
+
+.ul {
+  display: grid;
+  padding: 0rem;
+  grid-gap: 2rem;
+  width: fit-content;
+  grid-auto-flow: column;
+}
+.li {
+  list-style: none;
+}
 .button {
   color: #ccc;
   font-size: 1rem;
