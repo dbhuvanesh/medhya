@@ -10,6 +10,7 @@ html,
 body {
   color: #fff;
   background-color: #0f172a;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /* padding starts */
@@ -317,38 +318,19 @@ body {
 
 /* layout end */
 /* utilities */
-.container {
-  padding: 1rem;
-  display: block;
-}
-
-.avbar {
-  display: block;
-}
-.ul {
+.header {
   display: grid;
-  padding: 0rem;
-  grid-gap: 2rem;
-  width: fit-content;
+  padding: 0 4rem;
+  align-items: center;
   grid-auto-flow: column;
-}
-.li {
-  list-style: none;
-}
-.button {
-  color: #ccc;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  display: inline-block;
-  border-radius: 0.4rem;
-  border: 1px solid #ccc;
-  text-transform: capitalize;
-  background-color: transparent;
-  font-family: "Josefin Sans", sans-serif;
+  justify-content: space-between;
 }
 
-.button:hover {
-  color: #000;
-  border: 1px solid #eee;
-  background-color: #eee;
+.navbar {
+  display: block;
+}
+.navbar-ul{
+  display: grid;
+  grid-gap: 2rem;
+  grid-auto-flow: column;
 }
