@@ -2,7 +2,9 @@
 
 .root {
   margin: 0;
-  padding: 0;
+  display: grid;
+  padding: 2rem 4rem;
+  grid-auto-flow: row;
   box-sizing: border-box;
 }
 
@@ -13,7 +15,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-/* padding starts */
+/* padding */
 .p-0 {
   padding: 0;
 }
@@ -158,8 +160,7 @@ body {
   padding-left: 2rem;
 }
 
-/* padding ends */
-/* margin starts */
+/* margin */
 .m-0 {
   margin: 0;
 }
@@ -300,8 +301,7 @@ body {
   margin-left: 2rem;
 }
 
-/* margin ends */
-/* layout start */
+/* layout */
 .grid {
   display: grid;
 }
@@ -316,11 +316,39 @@ body {
   grid-auto-flow: column;
 }
 
-/* layout end */
+/* Typography */
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  font-size: 0.25rem;
+}
+
+.h2 {
+  font-size: 0.75rem;
+}
+
+.h3 {
+  font-size: 1.25rem;
+}
+
+.h4 {
+  font-size: 1.5rem;
+}
+
+.h5 {
+  font-size: 1.75rem;
+}
+
+.h6 {
+  font-size: 2rem;
+}
+
 /* utilities */
 .header {
   display: grid;
-  padding: 0 4rem;
   align-items: center;
   grid-auto-flow: column;
   justify-content: space-between;
@@ -329,8 +357,19 @@ body {
 .navbar {
   display: block;
 }
-.navbar-ul{
+
+.navbar-ul {
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-gap: 2rem;
   grid-auto-flow: column;
+}
+.navbar-ul-li {
+  list-style: none;
+}
+
+.navbar-ul-li:hover {
+  color: #ccc;
+  cursor: pointer;
 }
