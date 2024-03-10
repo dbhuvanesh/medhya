@@ -2,12 +2,16 @@
 
 .root {
   margin: 0;
+  padding: 1rem;
   display: grid;
-  padding: 2rem 4rem;
   grid-auto-flow: row;
   box-sizing: border-box;
 }
-
+@media screen and (min-width: 1200px) {
+  .root {
+    padding: 2rem 4rem;
+  }
+}
 html,
 body {
   color: #fff;
@@ -353,7 +357,10 @@ body {
   grid-auto-flow: column;
   justify-content: space-between;
 }
-
+.container {
+  display: block;
+  padding: 1rem 0;
+}
 .navbar {
   display: block;
 }
@@ -372,4 +379,19 @@ body {
 .navbar-ul-li:hover {
   color: #ccc;
   cursor: pointer;
+}
+
+.button {
+  color: #ccc;
+  padding: 0.5rem;
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 0.5rem;
+  border: 1px solid #eee;
+  background-color: transparent;
+  font-family: "Josefin Sans", sans-serif;
+}
+.button:hover {
+  color: #05137a;
+  background-color: #ccc;
 }
