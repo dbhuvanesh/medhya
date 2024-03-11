@@ -359,11 +359,14 @@ body {
   padding: 0;
 }
 /* utilities */
-
+hr {
+  width: 100%;
+  background-color: #ccc;
+}
 .span {
   cursor: pointer;
-  font-size: .75rem;
-  border-radius: .375em;
+  font-size: 0.75rem;
+  border-radius: 0.375em;
   padding: 0.5rem 0.75rem;
   text-transform: capitalize;
 }
@@ -383,7 +386,7 @@ body {
   font-weight: 700;
   text-transform: capitalize;
 }
-.box-body{
+.box-body {
   margin-bottom: 0.5rem;
 }
 .header {
