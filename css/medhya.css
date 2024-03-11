@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
 :root {
   --bg-color: #0f172a;
 }
@@ -16,6 +17,7 @@
 }
 html,
 body {
+  margin: 0;
   color: #fff;
   background-color: var(--bg-color);
   font-family: "Josefin Sans", sans-serif;
@@ -166,7 +168,6 @@ body {
   padding-left: 2rem;
 }
 
-/* margin */
 .m-0 {
   margin: 0;
 }
@@ -307,7 +308,6 @@ body {
   margin-left: 2rem;
 }
 
-/* layout */
 .grid {
   display: grid;
 }
@@ -325,7 +325,6 @@ body {
   grid-auto-flow: column;
 }
 
-/* Typography */
 .title {
   margin: 0;
   padding: 0;
@@ -358,7 +357,6 @@ body {
   margin: 0;
   padding: 0;
 }
-/* utilities */
 hr {
   width: 100%;
   background-color: #ccc;
