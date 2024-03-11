@@ -359,6 +359,7 @@ body {
   padding: 0;
 }
 /* utilities */
+
 .span {
   cursor: pointer;
   font-size: .75rem;
@@ -381,6 +382,9 @@ body {
   text-align: left;
   font-weight: 700;
   text-transform: capitalize;
+}
+.box-body{
+  margin-bottom: 0.5rem;
 }
 .header {
   display: grid;
