@@ -404,12 +404,16 @@ hr {
   background-color: transparent;
 }
 .input[type="checkbox"] {
+  padding: 0;
   color: transparent;
+  width: min-content;
+  height: min-content;
   border: 1px solid #eee;
-  background-color: transparent;
+  background-color: rgb(0, 156, 208);
 }
 .form-checkbox{
   display: grid;
+  align-items: center;
   width: min-content;
   height: min-content;
   grid-auto-flow: column;
@@ -452,6 +456,7 @@ hr {
   display: inline-block;
   border-radius: 0.5rem;
   border: 1px solid #eee;
+  text-transform: capitalize;
   background-color: transparent;
   font-family: "Josefin Sans", sans-serif;
 }
