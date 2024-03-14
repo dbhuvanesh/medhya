@@ -356,7 +356,7 @@ hr {
   width: 100%;
   background-color: #ccc;
 }
-.span {
+.tag {
   cursor: pointer;
   font-size: 0.75rem;
   border-radius: 0.375em;
@@ -407,7 +407,7 @@ hr {
   height: min-content;
   border: 1px solid #eee;
 }
-.form-checkbox{
+.form-checkbox {
   display: grid;
   align-items: center;
   width: min-content;
@@ -446,6 +446,7 @@ hr {
 
 .button {
   color: #ccc;
+  cursor: pointer;
   padding: 0.5rem;
   font-weight: 700;
   width: fit-content;
@@ -460,12 +461,11 @@ hr {
   color: #05137a;
   background-color: #ccc;
 }
-
 @media screen and (min-width: 1200px) {
   .root {
     padding: 2rem 4rem;
   }
-  .form{
-    width: 18rem;
+  .form {
+    width: 20rem;
   }
 }
