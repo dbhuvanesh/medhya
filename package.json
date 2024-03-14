@@ -1,6 +1,6 @@
 {
   "name": "medhya",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "",
   "scripts": {
     "build-cleancss": "cleancss -o css/medhya.min.css css/medhya.css"
