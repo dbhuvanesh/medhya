@@ -371,6 +371,9 @@ hr {
   height: max-content;
   border: 1px solid #eee;
 }
+.box-img {
+  background-color: #70747d;
+}
 .box-title {
   margin: 0;
   padding: 0;
@@ -394,17 +397,25 @@ hr {
 .input {
   height: 2rem;
   color: #ccc;
+  outline: none;
   width: -moz-available;
   padding-left: 0.375rem;
   border-radius: 0.375rem;
   border: 1px solid #70747d;
   background-color: transparent;
 }
+.input:focus {
+  outline: none;
+  outline-style: solid;
+  outline-width: 0.15rem;
+  outline-color: #0d6dfd7b;
+}
 .input[type="checkbox"] {
   padding: 0;
-  color: transparent;
+  outline: none;
   width: min-content;
   height: min-content;
+  accent-color: #0d6efd;
   border: 1px solid #eee;
 }
 .form-checkbox {
