@@ -1,29 +1,32 @@
 const webpack = require("webpack");
 const path = require("path");
-const port = process.env.port || 5000;
-const htmlwebpackplugin = require("html-webpack-plugin");
-
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
-  entry: "./src/pages/global.js",
-  output: {
-    filename: "bundle.js",
-    path: path.resolve(__dirname, "dist"),
-  },
+  entry: "./src/index.js",
   mode: "development",
+  output: {
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
+  },
+  devServer: {
+    open: true,
+    port: 5000,
+    historyApiFallback: true,
+  },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /.(js|jsx)$/,
         use: "babel-loader",
         exclude: /node_modules/,
       },
       {
-        test: /\.css$/,
+        test: /.css$/,
         use: ["style-loader", "css-loader"],
-        exclude: /\.module\.css$/,
+        exclude: /.module.css$/,
       },
       {
-        test: /\.css$/,
+        test: /.css$/,
         use: [
           "style-loader",
           {
@@ -34,14 +37,9 @@ module.exports = {
             },
           },
         ],
-        include: /\.module\.css$/,
+        include: /.module.css$/,
       },
     ],
   },
-  devServer: {
-    port: port,
-    open: true,
-    historyApiFallback: false,
-  },
-  plugins: [new htmlwebpackplugin({ template: "./public/index.html" })],
+  plugins: [new HtmlWebpackPlugin({ template: "./public/index.html" })],
 };
