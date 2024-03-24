@@ -1,13 +1,16 @@
 {
   "name": "medhya",
   "version": "1.0.130",
-  "description": "",
+  "description": "A flexible CSS framework based on grid.",
   "scripts": {
     "build-cleancss": "cleancss -o css/medhya.min.css css/medhya.css"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "frontend"
+  ],
   "author": "Bhuvanesh Duvvuri",
-  "license": "ISC",
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "prettier": "^3.1.0",
     "clean-css-cli": "^5.6.2"
