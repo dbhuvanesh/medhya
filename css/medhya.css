@@ -439,6 +439,9 @@ hr {
   outline: none;
   color: var(--imp-text-color);
 }
+.input[type="checkbox"] {
+  height: unset;
+}
 table {
   width: -moz-available;
   border-collapse: collapse;
