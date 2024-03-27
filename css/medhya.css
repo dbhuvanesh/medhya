@@ -480,6 +480,9 @@ td {
   display: block;
   padding: 1rem 0;
 }
+.none{
+  display: none;
+}
 .navbar {
   display: block;
 }
