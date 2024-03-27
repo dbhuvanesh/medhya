@@ -1,6 +1,6 @@
 {
   "name": "medhya",
-  "version": "1.0.130",
+  "version": "1.0.131",
   "description": "A flexible CSS framework based on grid.",
   "scripts": {
     "build-cleancss": "cleancss -o css/medhya.min.css css/medhya.css"
