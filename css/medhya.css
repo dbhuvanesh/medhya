@@ -9,7 +9,7 @@
 }
 .root {
   margin: 0;
-  padding: 1rem;
+  padding: 2rem;
   display: grid;
   grid-auto-flow: row;
   box-sizing: border-box;
@@ -544,9 +544,7 @@ td {
   width: 75% !important;
 }
 @media screen and (min-width: 1200px) {
-  .root {
-    padding: 2rem 4rem;
-  }
+  
   .form {
     width: 20rem;
   }
