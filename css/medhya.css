@@ -553,10 +553,10 @@ td {
   table {
     width: 50%;
   }
-  .grid-auto-rows {
+  .res-grid-auto-rows {
     grid-auto-flow: column;
   }
-  .grid-auto-columns {
+  .res-grid-auto-columns {
     grid-auto-flow: row;
   }
 }
